@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3b747;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 100%, 20%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 100;
+}
+
+footer {
+    margin-bottom: auto;
+    background-color: hsl(0, 100%, 20%);
+    color: white;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+}
+
+.items-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.item {
+    flex: 1;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.add-button {
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 10px;
+    text-align: left;
+}
+
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+#textBoxContainer1 {
+    text-align: right;
+}
+
+#textBoxContainer1 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer1 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px; 
+    text-align: right;
+}
+
+#totalCurrentAssets {
+    text-align: right;
+}
+
+#textBoxContainer2 {
+    text-align: right;
+}
+
+#textBoxContainer2 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer2 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px; 
+    text-align: right;
+}
+
+#textBoxContainer3 {
+    text-align: right;
+}
+
+#textBoxContainer3 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer3 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px; 
+    text-align: right;
+}
+
+#textBoxContainer4 {
+    text-align: right;
+}
+
+#textBoxContainer4 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer4 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px; 
+    text-align: right;
+}
+
+#textBoxContainer5 {
+    text-align: right;
+}
+
+#textBoxContainer5 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer5 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+#textBoxContainer6 {
+    text-align: right;
+}
+
+#textBoxContainer6 label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+#textBoxContainer6 input {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 5px; 
+    text-align: right;
+}
+

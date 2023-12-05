@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bellarmine Financials Project</title>
+    <link rel="stylesheet" href="css\stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Bellarmine Financials - Balance Sheet Calculator</h1>
+    </header>
+        <div class="items-bar">
+            <div class="item">Assets</div>
+            <div class="item">Liabilities</div>
+        </div>
+    <div class="container">
+            <div class="grid-box" id="Assets-grid">
+                <div class="asset-section">
+                    <h2>Current Assets</h2>
+                    <button class="add-button" onclick="showTextBoxes('textBoxContainer1', ['Cash', 'Inventory', 'Supplies', 'Temporary Investments'])" >Add Current Assets</button>
+                    <div id="textBoxContainer1"></div>
+                </div>
+                <div class="asset-section">
+                    <h2>Investment Property & Equipment</h2>
+                    <button class="add-button" onclick="showTextBoxes('textBoxContainer2', ['Land', 'Building and Improvements', 'Equipment', 'Temporary Investments'])">Add Investment Property & Equipment</button>
+                    <div id="textBoxContainer2"></div>
+                </div>
+                <div class="asset-section">
+                    <h2>Intangibles</h2>
+                    <button class="add-button" onclick="showTextBoxes('textBoxContainer3', ['Trade Names', 'Goodwill'])">Add Intangibles</button>
+                    <div id="textBoxContainer3"></div>
+                </div>
+            </div>
+            <div class="grid-box" id="Liabilities-grid">
+                <div class="liabilities-section">
+                    <h2>Current Liabilities</h2>
+                    <button class="add-button" onclick="showTextBoxes('textBoxContainer4', ['Accounts Payable', 'Notes Payable', 'Interest Payable', 'Wages Payable', 'Accrued Expenses'])">Add Current Liabilities</button>
+                    <div id="textBoxContainer4"></div>
+                </div>
+                <div class="liabilities-section">
+                    <h2>Long-Term Liabilities</h2>
+                    <button class="add-button" onclick="showTextBoxes('textBoxContainer5', ['Notes Payable', 'Bonds Payable'])">Add Long-Term Liabilities</button>
+                    <div id="textBoxContainer5"></div>
+                </div>
+                <div class="liabilities-section">
+                    <h2>Total Position</h2>
+                    <button class="add-button" onclick="calculatePosition()">Calculate Postiton</button>
+                </div>
+                <div class="liabilities-section">
+                    <h3 id="totalAssets">Total Assets: $0.00</h3>
+                    <h3 id="totalLiabilities">Total Liabilities: $0.00</h3>
+                    <h3  id="position">Position: $0.00</h3>
+                </div>
+            </div>
+    </div>
+    <footer>
+        <h5>© Bellarmine University 2023</h5>
+    </footer>
+<script src="js\script.js"></script>
+</body>
+</html>
